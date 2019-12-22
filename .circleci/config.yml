@@ -7,7 +7,7 @@ jobs:
       ignore:
         - develop
     docker:
-      - image: 'circleci/node:8'
+      - image: 'circleci/node:11'
     working_directory: ~/repo
 
     steps:
