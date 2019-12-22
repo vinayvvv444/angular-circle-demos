@@ -1,5 +1,6 @@
 version:2
 jobs: 
+-name: A
 build:
 docker:
 - image: 'circleci/node:8'
